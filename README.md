@@ -26,6 +26,9 @@ If the user chooses "Yearly Airline Performance" ("OPT1"), the function computes
 
 Alternatively, if "Yearly Airline Delay Report" ("OPT2") is selected, the function calculates data for different types of delays (e.g., carrier delay, weather delay) and presents these computed graphs.
 
+<img width="1429" alt="Screenshot 2023-11-17 at 20 13 01" src="https://github.com/moheebprojects/US-Domestic-Flight-Performance-Dashboard/assets/125134551/19e6bad1-d768-48a5-b833-95933b811077">
+
+
 6. Run the App
 To launch the web application, a block of code that runs it. If this script is executed as the main program, the "app.run_server(debug=True)" line starts the web application and serves it locally.
 
