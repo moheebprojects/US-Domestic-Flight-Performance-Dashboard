@@ -1,7 +1,7 @@
-    US-Domestic-Flight-Performance-Dashboard
+# US-Domestic-Flight-Performance-Dashboard
 In this project as part of the IBM Data Analyst Certification, i created an interactive dashboard that analysis the performance of the reporting airline to improve fight reliability thereby improving customer reliability.
 
-    Airline Data Dashboard
+# Airline Data Dashboard
 This Python script is the foundation of an interactive web-based dashboard for visualizing and analyzing data related to domestic airline flights. It's built using Dash, a web framework for Python. The dashboard was created through the following steps: 
 
 1. Importing Libraries
