@@ -2,7 +2,7 @@
 In this project as part of the IBM Data Analyst Certification, i created an interactive dashboard that analysis the performance of the reporting airline to improve fight reliability thereby improving customer reliability.
 
 # Airline Data Dashboard
-The interactive web-based dashboard for visualizing and analyzing data related to domestic airline flights. It's built using Dash, a web framework for Python. The dashboard was created through the following steps: 
+The interactive web-based dashboard for visualising and analyzing data related to domestic airline flights. It's built using Dash, a web framework for Python. The dashboard was created through the following steps: 
 
 1. Importing Libraries
 All the essential python libraries required were imported, this including Pandas for data manipulation, Dash for creating web applications, Plotly for data visualization, and more.
