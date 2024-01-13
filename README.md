@@ -4,19 +4,19 @@ In this project as part of the IBM Data Analyst Certification, i created an inte
 # Airline Data Dashboard
 The interactive web-based dashboard for visualising and analyzing data related to domestic airline flights. It's built using Dash, a web framework for Python. The dashboard was created through the following steps: 
 
-1. Importing Libraries
+1. Importing Libraries: 
 All the essential python libraries required were imported, this including Pandas for data manipulation, Dash for creating web applications, Plotly for data visualization, and more.
 
-2. Creating a Dash Application
+2. Creating a Dash Application: 
 A Dash application was initialised with the line "app = dash.Dash(__name__)". This is where the layout and functionality of our web application is defined.
 
-3. Reading Data
+3. Reading Data: 
 The airline data was loaded from a CSV file using Pandas. This data contains information about airline flights, including details like the month, reporting airline, and various types of delays.
 
-4. Layout Setup
+4. Layout Setup: 
 Here, the structure of the web application was defined. two dropdwons were created for users to select the type of report and the year they're interested in. Additionally, an empty spaces (placeholders) was included where the graphs will be displayed.
 
-5. Callback Function
+5. Callback Function: 
 This is a crucial part of the web application. the callback function was defined  with the "@app.callback decorator". When users interact with the web application this function is triggered. It calculates the data needed to create graphs based on the user's selections.
 
 If the user chooses "Yearly Airline Performance" ("OPT1"), the function computes data for various graphs, including those related to monthly flight cancellations, average flight times, diverted airport landings, and more. These computed graphs are then returned as components and displayed on the web page.
