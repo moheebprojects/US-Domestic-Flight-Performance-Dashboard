@@ -17,7 +17,7 @@ app.config.suppress_callback_exceptions = True
 
 # Read the airline data into pandas dataframe
 airline_data = pd.read_csv(
-    "/Users/moheeb/Documents/IBM Certification/airline_data_dashboard.csv",
+    ".../airline_data_dashboard.csv",
     encoding="ISO-8859-1",
     dtype={
         "Div1Airport": str,
